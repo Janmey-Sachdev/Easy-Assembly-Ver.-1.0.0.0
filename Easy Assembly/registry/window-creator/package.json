@@ -1,0 +1,6 @@
+{
+  "name": "window-creator",
+  "version": "1.0.0",
+  "description": "Java tool that generates an Easy Assembly window example.",
+  "main": "src/WindowCreator.java"
+}

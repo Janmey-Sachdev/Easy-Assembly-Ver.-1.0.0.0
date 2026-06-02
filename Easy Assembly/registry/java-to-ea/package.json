@@ -1,0 +1,6 @@
+{
+  "name": "java-to-ea",
+  "version": "1.0.0",
+  "description": "Java converter from simple Java code to Easy Assembly.",
+  "main": "src/JavaToEaConverter.java"
+}

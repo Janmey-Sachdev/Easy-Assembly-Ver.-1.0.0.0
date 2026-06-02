@@ -1,0 +1,6 @@
+{
+  "name": "html-css-styler",
+  "version": "2.0.0",
+  "description": "HTML/CSS Styler version 2: support div and span conversion.",
+  "main": "src/HtmlCssStyler.java"
+}

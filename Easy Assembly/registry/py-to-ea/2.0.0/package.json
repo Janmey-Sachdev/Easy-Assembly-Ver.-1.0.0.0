@@ -1,0 +1,6 @@
+{
+  "name": "py-to-ea",
+  "version": "2.0.0",
+  "description": "Python to EA converter version 2: adds simple if conversion.",
+  "main": "src/PyToEaConverter.java"
+}

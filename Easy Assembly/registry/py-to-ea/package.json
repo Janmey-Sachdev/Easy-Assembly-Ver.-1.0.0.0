@@ -1,0 +1,6 @@
+{
+  "name": "py-to-ea",
+  "version": "1.0.0",
+  "description": "Java converter from simple Python scripts to Easy Assembly.",
+  "main": "src/PyToEaConverter.java"
+}

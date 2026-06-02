@@ -1,0 +1,6 @@
+{
+  "name": "py-to-ea",
+  "version": "3.0.0",
+  "description": "Python to EA converter version 3: supports if blocks and comments.",
+  "main": "src/PyToEaConverter.java"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "animation-creator",
+  "version": "1.0.0",
+  "description": "Animation creator version 1: simple frame-based EA output.",
+  "main": "src/AnimationCreator.java"
+}

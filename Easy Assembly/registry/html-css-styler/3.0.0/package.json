@@ -1,0 +1,6 @@
+{
+  "name": "html-css-styler",
+  "version": "3.0.0",
+  "description": "HTML/CSS Styler version 3: supports inline style attributes like color and font-weight.",
+  "main": "src/HtmlCssStyler.java"
+}

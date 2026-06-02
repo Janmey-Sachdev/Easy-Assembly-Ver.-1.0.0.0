@@ -1,0 +1,6 @@
+{
+  "name": "java-to-ea",
+  "version": "1.0.0",
+  "description": "Java to EA converter version 1: simple println and assignments.",
+  "main": "src/JavaToEaConverter.java"
+}

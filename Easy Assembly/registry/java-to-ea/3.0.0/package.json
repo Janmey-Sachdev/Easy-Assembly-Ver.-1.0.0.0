@@ -1,0 +1,6 @@
+{
+  "name": "java-to-ea",
+  "version": "3.0.0",
+  "description": "Java to EA converter version 3: handles if blocks and comments.",
+  "main": "src/JavaToEaConverter.java"
+}

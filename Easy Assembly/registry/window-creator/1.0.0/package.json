@@ -1,0 +1,6 @@
+{
+  "name": "window-creator",
+  "version": "1.0.0",
+  "description": "Window creator version 1: simple ASCII window generator.",
+  "main": "src/WindowCreator.java"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "easy-assembly",
+  "displayName": "Easy Assembly (EA)",
+  "description": "EA Language - High-level assembly made easy",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "ea",
+        "aliases": [
+          "Easy Assembly",
+          "ea"
+        ],
+        "extensions": [
+          ".ea"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ea",
+        "scopeName": "source.ea",
+        "path": "./syntaxes/ea.tmLanguage.json"
+      }
+    ]
+  }
+}

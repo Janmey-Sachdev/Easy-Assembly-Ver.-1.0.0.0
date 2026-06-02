@@ -1,0 +1,81 @@
+# Test Enhanced Easy Assembly Features
+# This file tests the new language features added to EA
+
+# Test ARRAY declaration and manipulation
+ARRAY numbers 5
+ASSIGN numbers[0] 10
+ASSIGN numbers[1] 20
+ASSIGN numbers[2] 30
+DISPLAY "Array test: "
+DISPLAY numbers[0]
+DISPLAY numbers[1]
+DISPLAY numbers[2]
+
+# Test built-in functions
+DECLARE x
+DECLARE y
+CALC x ABS(-42)
+DISPLAY "ABS(-42) = "
+DISPLAY x
+
+CALC y SQRT(16)
+DISPLAY "SQRT(16) = "
+DISPLAY y
+
+CALC x MIN(5, 3)
+DISPLAY "MIN(5, 3) = "
+DISPLAY x
+
+CALC x MAX(5, 3)
+DISPLAY "MAX(5, 3) = "
+DISPLAY x
+
+# Test string functions
+DECLARE msg
+ASSIGN msg "HELLO"
+DISPLAY "UPPER('hello') = "
+DISPLAY msg
+
+ASSIGN msg "hello"
+DISPLAY "LOWER('HELLO') = "
+DISPLAY msg
+
+CALC x LEN("test")
+DISPLAY "LEN('test') = "
+DISPLAY x
+
+# Test LOOP (while loop)
+DECLARE counter
+ASSIGN counter 0
+DISPLAY "LOOP test (counting 0-3):"
+LOOP counter < 4
+  DISPLAY counter
+  CALC counter counter + 1
+ENDLOOP
+
+# Test FOR loop
+DISPLAY "FOR loop test (i from 1 to 3):"
+FOR i 1 3 1
+  DISPLAY i
+ENDFOR
+
+# Test ELSE and conditional
+DECLARE age
+ASSIGN age 15
+DISPLAY "CHECK/ELSE test:"
+CHECK age >= 18
+  DISPLAY "Adult"
+ELSE
+  DISPLAY "Minor"
+ENDCHECK
+
+# Test ELSEIF
+DECLARE grade
+ASSIGN grade 85
+CHECK grade >= 90
+  DISPLAY "Grade: A"
+ELSEIF grade >= 80
+  DISPLAY "Grade: B"
+ENDCHECK
+
+DISPLAY "Enhanced EA test complete!"

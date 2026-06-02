@@ -1,0 +1,6 @@
+{
+  "name": "html-css-styler",
+  "version": "1.0.0",
+  "description": "Java converter from minimal HTML/CSS into Easy Assembly output.",
+  "main": "src/HtmlCssStyler.java"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "window-creator",
+  "version": "2.0.0",
+  "description": "Window creator version 2: adds title and extra styling.",
+  "main": "src/WindowCreator.java"
+}

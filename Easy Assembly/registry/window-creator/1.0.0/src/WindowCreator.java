@@ -1,0 +1,18 @@
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class WindowCreator {
+    public static void main(String[] args) throws IOException {
+        StringBuilder sb = new StringBuilder();
+        sb.append("DISPLAY \"+----------------------+\"\n");
+        sb.append("DISPLAY \"|  Simple Window     |\"\n");
+        sb.append("DISPLAY \"+----------------------+\"\n");
+        sb.append("DISPLAY \"(v1.0.0)\"\n");
+        sb.append("HALT\n");
+
+        try (FileWriter fw = new FileWriter("window.ea")) {
+            fw.write(sb.toString());
+        }
+        System.out.println("Wrote window.ea (v1.0.0)");
+    }
+}

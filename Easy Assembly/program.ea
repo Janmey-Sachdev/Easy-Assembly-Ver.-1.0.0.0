@@ -1,0 +1,28 @@
+DECLARE INT counter
+DECLARE INT a
+DECLARE INT b
+DECLARE INT result
+DECLARE STR name
+
+ASSIGN a 5
+ASSIGN b 3
+
+CALC result a + b
+DISPLAY "Sum is:"
+DISPLAY result
+
+CHECK result > 5
+  DISPLAY "Result is greater than 5"
+ENDCHECK
+
+REPEAT 3
+  CALC counter counter + 1
+  DISPLAY counter
+ENDREPEAT
+
+READ name
+DISPLAY "Hello,"
+DISPLAY name
+
+MEMORY
+HALT

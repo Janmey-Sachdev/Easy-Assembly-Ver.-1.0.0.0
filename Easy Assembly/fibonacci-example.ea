@@ -1,0 +1,48 @@
+# Fibonacci Sequence Generator
+# Demonstrates arrays, loops, and calculations
+
+DECLARE limit
+ASSIGN limit 10
+
+ARRAY fib 10
+ASSIGN fib[0] 0
+ASSIGN fib[1] 1
+
+DISPLAY "Fibonacci sequence:"
+DISPLAY fib[0]
+DISPLAY fib[1]
+
+FOR i 2 9 1
+  CALC fib[i] fib[i - 1] + fib[i - 2]
+  DISPLAY fib[i]
+ENDFOR
+
+# Find maximum fibonacci number
+DECLARE max_val
+ASSIGN max_val 0
+
+FOR i 0 9 1
+  CHECK fib[i] > max_val
+    ASSIGN max_val fib[i]
+  ENDCHECK
+ENDFOR
+
+DISPLAY "Maximum value: "
+DISPLAY max_val
+
+# Calculate statistics
+DECLARE sum
+ASSIGN sum 0
+
+FOR i 0 9 1
+  CALC sum sum + fib[i]
+ENDFOR
+
+DECLARE avg
+CALC avg sum / 10
+DISPLAY "Sum: "
+DISPLAY sum
+DISPLAY "Average: "
+DISPLAY avg
+
+DISPLAY "Done!"

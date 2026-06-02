@@ -1,0 +1,6 @@
+{
+  "name": "html-css-styler",
+  "version": "1.0.0",
+  "description": "HTML/CSS Styler version 1: basic H1 and P conversion.",
+  "main": "src/HtmlCssStyler.java"
+}

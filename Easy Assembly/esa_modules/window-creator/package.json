@@ -1,0 +1,6 @@
+{
+  "name": "window-creator",
+  "version": "3.0.0",
+  "description": "Window creator version 3: adds menu, title bar, and footer.",
+  "main": "src/WindowCreator.java"
+}

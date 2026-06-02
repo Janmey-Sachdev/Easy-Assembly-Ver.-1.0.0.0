@@ -1,0 +1,15 @@
+{
+  "name": "essa-java",
+  "version": "0.1.0",
+  "description": "Simple local package manager and EA runner (essa-java)",
+  "main": "bin/ea.js",
+  "bin": {
+    "esa": "bin/esa.js",
+    "ea": "bin/ea.js"
+  },
+  "files": ["bin", "registry", "README.md"],
+  "preferGlobal": true,
+  "keywords": ["esa", "ea", "package-manager", "easy-assembly"],
+  "author": "",
+  "license": "MIT"
+}

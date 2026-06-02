@@ -1,0 +1,6 @@
+{
+  "name": "animation-creator",
+  "version": "2.0.0",
+  "description": "Animation creator version 2: longer motion and labeled frames.",
+  "main": "src/AnimationCreator.java"
+}

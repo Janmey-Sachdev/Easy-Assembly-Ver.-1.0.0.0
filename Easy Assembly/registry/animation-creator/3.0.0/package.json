@@ -1,0 +1,6 @@
+{
+  "name": "animation-creator",
+  "version": "3.0.0",
+  "description": "Animation creator version 3: repeating mid-frame animation and status text.",
+  "main": "src/AnimationCreator.java"
+}

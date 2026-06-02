@@ -1,0 +1,6 @@
+{
+  "name": "animation-creator",
+  "version": "1.0.0",
+  "description": "Java tool that generates an Easy Assembly animation example.",
+  "main": "src/AnimationCreator.java"
+}

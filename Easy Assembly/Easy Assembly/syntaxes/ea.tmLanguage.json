@@ -1,0 +1,73 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "Easy Assembly",
+  "patterns": [
+    {
+      "include": "#comments"
+    },
+    {
+      "include": "#keywords"
+    },
+    {
+      "include": "#strings"
+    },
+    {
+      "include": "#numbers"
+    },
+    {
+      "include": "#variables"
+    }
+  ],
+  "repository": {
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line.ea",
+          "match": "//.*$"
+        }
+      ]
+    },
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keyword.control.ea",
+          "match": "\\b(set|print|add|sub|mul|div|loop|endloop|if|endif|input|clear)\\b"
+        },
+        {
+          "name": "keyword.operator.ea",
+          "match": "(==|!=|>=|<=|>|<|\\+|-|\\*|/)"
+        }
+      ]
+    },
+    "strings": {
+      "patterns": [
+        {
+          "name": "string.quoted.double.ea",
+          "begin": "\"",
+          "end": "\"",
+          "escapeSequences": {
+            "name": "constant.character.escape.ea",
+            "match": "\\\\."
+          }
+        }
+      ]
+    },
+    "numbers": {
+      "patterns": [
+        {
+          "name": "constant.numeric.ea",
+          "match": "\\b[0-9]+\\b"
+        }
+      ]
+    },
+    "variables": {
+      "patterns": [
+        {
+          "name": "variable.other.ea",
+          "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b"
+        }
+      ]
+    }
+  },
+  "scopeName": "source.ea"
+}
