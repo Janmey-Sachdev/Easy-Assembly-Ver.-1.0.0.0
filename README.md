@@ -1,3 +1,5 @@
+TERMS & CONDITIONS.
+
 Finally! After 6 days of progress, I made a coding language named Easy Assembly or EA using Java & Java Script. And it is complete! 
 
 It is a whole coding language but small based on Assembly and made on the Java coding language. 
