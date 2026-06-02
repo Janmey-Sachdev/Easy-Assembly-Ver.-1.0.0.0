@@ -51,6 +51,4 @@ Comments
 
 # comment
 // comment
-If you want, I can also give a short EA example program using these keywords.
 
-Raptor mini (Preview) • 0.5 credits
